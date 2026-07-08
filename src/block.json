@@ -1,0 +1,28 @@
+{
+    "apiVersion": 2,
+    "name": "wplpb/latest-posts",
+    "title": "WP Latest Posts",
+    "category": "widgets",
+    "icon": "list-view",
+    "description": "Displays recent posts using a dynamic Gutenberg Block.",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "numberOfPosts": {
+            "type": "number",
+            "default": 5
+        },
+        "order": {
+            "type": "string",
+            "default": "desc"
+        },
+        "category": {
+            "type": "number"
+        }
+    },
+    "editorScript": "file:../build/index.js",
+    "editorStyle": "file:./editor.css",
+    "style": "file:../build/style-index.css",
+    "render": "file:./render.php"
+}
