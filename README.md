@@ -1,4 +1,4 @@
-WP Latest Posts Block
+WP Latest Posts Block : 
 A custom Gutenberg Block that dynamically displays WordPress Posts using server-side rendering and WP_Query. Built using modern Block Development practices.
 
 1. Features :
