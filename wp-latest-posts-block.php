@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Fetch Posts using REST API
-Plugin URI : 
+Plugin URI : https://github.com/Srirupa-M/wp-latest-posts-block/
 Description: Custom Gutenberg Block that fetches posts using WP REST API
 Version: 1.0
 Author: Srirupa
